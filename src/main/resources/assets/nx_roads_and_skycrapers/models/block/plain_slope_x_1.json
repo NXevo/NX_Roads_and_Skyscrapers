@@ -1,0 +1,12 @@
+{
+  "parent": "nx_roads_and_skycrapers:custom/plain_slope_x1",
+  "textures": {
+    "all": "nx_roads_and_skycrapers:block/road",
+    "particle": "nx_roads_and_skycrapers:block/road",
+    "0": "nx_roads_and_skycrapers:block/road",
+    "1": "nx_roads_and_skycrapers:block/road_slope_right",
+    "2": "nx_roads_and_skycrapers:block/road_slope_left",
+    "missing": "nx_roads_and_skycrapers:block/road"
+  },
+  "render_type": "cutout_mipped"
+}

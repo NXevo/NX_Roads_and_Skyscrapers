@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nx_roads_and_skycrapers:block/stonebrickscracked5",
+    "particle": "nx_roads_and_skycrapers:block/stonebrickscracked5"
+  },
+  "render_type": "solid"
+}

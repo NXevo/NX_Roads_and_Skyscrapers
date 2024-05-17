@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nx_roads_and_skycrapers:block/glass6",
+    "up": "nx_roads_and_skycrapers:block/glass6",
+    "north": "nx_roads_and_skycrapers:block/glass6",
+    "east": "nx_roads_and_skycrapers:block/glass6",
+    "south": "nx_roads_and_skycrapers:block/glass6",
+    "west": "nx_roads_and_skycrapers:block/glass6",
+    "particle": "nx_roads_and_skycrapers:block/glass6"
+  },
+  "render_type": "translucent"
+}

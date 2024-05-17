@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "nx_roads_and_skycrapers:blocks/concrete_2",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nx_roads_and_skycrapers:concrete_2"
+        }
+      ]
+    }
+  ]
+}

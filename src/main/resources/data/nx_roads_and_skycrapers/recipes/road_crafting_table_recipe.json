@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bone_meal"
+    },
+    "b": {
+      "item": "nx_roads_and_skycrapers:yellow_road_dye"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "minecraft:crafting_table"
+    },
+    "e": {
+      "item": "nx_roads_and_skycrapers:plain_road"
+    }
+  },
+  "result": {
+    "item": "nx_roads_and_skycrapers:road_crafting_table",
+    "count": 1
+  }
+}

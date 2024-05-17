@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nx_roads_and_skycrapers:block/glass_green_8"
+    },
+    "facing=east": {
+      "model": "nx_roads_and_skycrapers:block/glass_green_8",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nx_roads_and_skycrapers:block/glass_green_8",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nx_roads_and_skycrapers:block/glass_green_8",
+      "y": 270
+    }
+  }
+}

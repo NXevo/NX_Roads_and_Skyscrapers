@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nx_roads_and_skycrapers:block/stone3",
+    "particle": "nx_roads_and_skycrapers:block/stone3"
+  },
+  "render_type": "solid"
+}

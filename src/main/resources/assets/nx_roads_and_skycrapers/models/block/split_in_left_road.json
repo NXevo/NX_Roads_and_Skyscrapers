@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nx_roads_and_skycrapers:block/road",
+    "up": "nx_roads_and_skycrapers:block/road_split_in_left",
+    "north": "nx_roads_and_skycrapers:block/road",
+    "east": "nx_roads_and_skycrapers:block/road",
+    "south": "nx_roads_and_skycrapers:block/road",
+    "west": "nx_roads_and_skycrapers:block/road",
+    "particle": "nx_roads_and_skycrapers:block/road_split_in_left"
+  },
+  "render_type": "solid"
+}

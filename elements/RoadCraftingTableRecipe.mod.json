@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "CUSTOM:YellowRoadDye"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:PlainRoad"
+      },
+      {
+        "value": "CUSTOM:PlainRoad"
+      },
+      {
+        "value": "CUSTOM:PlainRoad"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RoadCraftingTable"
+    },
+    "name": "road_crafting_table_recipe",
+    "namespace": "mod"
+  }
+}

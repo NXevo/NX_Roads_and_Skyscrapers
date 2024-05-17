@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nx_roads_and_skycrapers:block/outer_single_line_yellow_road"
+    },
+    "facing=east": {
+      "model": "nx_roads_and_skycrapers:block/outer_single_line_yellow_road",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nx_roads_and_skycrapers:block/outer_single_line_yellow_road",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nx_roads_and_skycrapers:block/outer_single_line_yellow_road",
+      "y": 270
+    }
+  }
+}

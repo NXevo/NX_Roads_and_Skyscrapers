@@ -1,0 +1,4051 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlainRoad",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/plain_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/plain_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/plain_road.json",
+          "src/main/java/net/mcreator/nxroads/block/PlainRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/plain_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "CreativeTabNXRoads",
+      "type": "tab",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_nx_roads",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "ArrowRoad",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowLeftRightRoad",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_left_right_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_left_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_left_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_left_right_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_left_right_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowLeftRightRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowStraightRoad",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_straight_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_straight_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_straight_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_straight_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_straight_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowStraightRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowStraightLeftRoad",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_straight_left_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_straight_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_straight_left_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_straight_left_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowStraightLeftRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_straight_left_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowStraightRightLeftRoad",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_straight_right_left_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_straight_right_left_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowStraightRightLeftRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_straight_right_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_straight_right_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_straight_right_left_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowStraightRightRoad",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_straight_right_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_straight_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_straight_right_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_straight_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_straight_right_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ArrowStraightRightRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "CroswalkRoad",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "croswalk_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/croswalk_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/croswalk_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/croswalk_road.json",
+          "src/main/java/net/mcreator/nxroads/block/CroswalkRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/croswalk_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "DiagonalInExRoad",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_in_ex_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_in_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_in_ex_road.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalInExRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_in_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_in_ex_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "DiagonalOutExRoad",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_out_ex_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_out_ex_road.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalOutExRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_out_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_out_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_out_ex_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "OuterLineExRoad",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_line_ex_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/OuterLineExRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/outer_line_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/outer_line_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/outer_line_ex_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/outer_line_ex_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "TurnInRoad",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_in_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_in_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnInRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_in_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_in_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_in_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "OuterLineSimpleRoad",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_line_simple_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/OuterLineSimpleRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/outer_line_simple_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/outer_line_simple_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/outer_line_simple_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/outer_line_simple_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "TurnOutRoad",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_out_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_out_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_out_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_out_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnOutRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_out_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ExZoneRoad",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ex_zone_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/ex_zone_road.json",
+          "src/main/java/net/mcreator/nxroads/block/ExZoneRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/ex_zone_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/ex_zone_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/ex_zone_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "TurnInExRoad",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_in_ex_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_in_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_in_ex_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnInExRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_in_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_in_ex_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "TurnOutExRoad",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_out_ex_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_out_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_out_ex_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_out_ex_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnOutExRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_out_ex_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "DiagonalLineRoad",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalLineRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_line_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MergeLineRoad",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merge_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/merge_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/merge_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MergeLineRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/merge_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/merge_line_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "LineStopRoad",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "line_stop_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/line_stop_road.json",
+          "src/main/java/net/mcreator/nxroads/block/LineStopRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/line_stop_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/line_stop_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/line_stop_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleLineDoubleRoad",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_line_double_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_line_double_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleLineDoubleRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_line_double_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_line_double_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_line_double_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleTurnLineRoad",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_turn_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_turn_line_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_turn_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_turn_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_turn_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleTurnLineRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleLineRoad",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_line_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleLineRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleCrossLineRoad",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_cross_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_cross_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleCrossLineRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_cross_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_cross_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_cross_line_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleTLineRoad",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_t_line_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_t_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_t_line_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_t_line_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleTLineRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_t_line_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "MiddleTurnLineSingleRoad",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_turn_line_single_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_turn_line_single_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_turn_line_single_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleTurnLineSingleRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_turn_line_single_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_turn_line_single_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "SplitInLeftRoad",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_in_left_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/SplitInLeftRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_in_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_in_left_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_in_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_in_left_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "SplitInRightRoad",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_in_right_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_in_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_in_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_in_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_in_right_road.json",
+          "src/main/java/net/mcreator/nxroads/block/SplitInRightRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "SplitOutLeftRoad",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_out_left_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_out_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_out_left_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_out_left_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_out_left_road.json",
+          "src/main/java/net/mcreator/nxroads/block/SplitOutLeftRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "SplitOutRightRoad",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_out_right_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/SplitOutRightRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_out_right_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_out_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_out_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_out_right_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "ArrowRightRoad",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_right_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/ArrowRightRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/arrow_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/arrow_right_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/arrow_right_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/arrow_right_road.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    },
+    {
+      "name": "PlainSlopeX1",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_slope_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/plain_slope_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/plain_slope_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/PlainSlopeX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/plain_slope_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/plain_slope_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclInESlopeRoadX1",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_in_e_slope_road_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_in_e_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_in_e_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_in_e_slope_road_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclInESlopeRoadX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_in_e_slope_road_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclInNSlopeRoadX1",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_in_n_slope_road_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_in_n_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_in_n_slope_road_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_in_n_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_in_n_slope_road_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclInNSlopeRoadX1Block.java"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "SingleMiddleLineSlopeRoadX1",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_middle_line_slope_road_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_middle_line_slope_road_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SingleMiddleLineSlopeRoadX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_middle_line_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_middle_line_slope_road_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_middle_line_slope_road_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclInSX1",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_in_sx_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_in_sx_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_in_sx_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclInSX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_in_sx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_in_sx_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclInWX1",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_in_wx_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_in_wx_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclInWX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_in_wx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_in_wx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_in_wx_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclOutEX1",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_out_ex_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_out_ex_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclOutEX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_out_ex_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_out_ex_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_out_ex_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclOutNX1",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_out_nx_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_out_nx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_out_nx_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclOutNX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_out_nx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_out_nx_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclOutSX1",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_out_sx_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclOutSX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_out_sx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_out_sx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_out_sx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_out_sx_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "DiagonalExclOutWX1",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_excl_out_wx_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_excl_out_wx_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_excl_out_wx_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_excl_out_wx_1.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalExclOutWX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_excl_out_wx_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "ExclLeftX1",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excl_left_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/excl_left_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/excl_left_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/excl_left_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/excl_left_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/ExclLeftX1Block.java"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "ExclRightX1",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excl_right_x_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/ExclRightX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/excl_right_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/excl_right_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/excl_right_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/excl_right_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "MiddleDoubleLineX1",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_double_line_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_double_line_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleDoubleLineX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_double_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_double_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_double_line_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "SingleLeftLineX1",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_left_line_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_left_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_left_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_left_line_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SingleLeftLineX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_left_line_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "SingleRightLineX1",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_right_line_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_right_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_right_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_right_line_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SingleRightLineX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_right_line_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "MiddleSingleLineX1",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_single_line_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_single_line_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_single_line_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleSingleLineX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_single_line_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_single_line_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1"
+    },
+    {
+      "name": "PlainYellowRoad",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/plain_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/PlainYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/plain_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/plain_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/plain_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "LeftArrowYellowRoad",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/left_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/LeftArrowYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/left_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/left_arrow_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/left_arrow_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "RightArrowYellowRoad",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/right_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/RightArrowYellowRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/right_arrow_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "LeftRightArrowYellowRoad",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_right_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/left_right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/left_right_arrow_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/left_right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/left_right_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/LeftRightArrowYellowRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "StraightArrowYellowRoad",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/straight_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/straight_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/straight_arrow_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/straight_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/StraightArrowYellowRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "StraightLeftArrowYellowRoad",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_left_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/straight_left_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/straight_left_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/straight_left_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/StraightLeftArrowYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/straight_left_arrow_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "StraightRightArrowYellowRoad",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_right_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/straight_right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/straight_right_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/StraightRightArrowYellowRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/straight_right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/straight_right_arrow_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "StraightLeftRightArrowYellowRoad",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "straight_left_right_arrow_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/straight_left_right_arrow_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/StraightLeftRightArrowYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/straight_left_right_arrow_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/straight_left_right_arrow_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/straight_left_right_arrow_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "CrosswalkYellowRoad",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crosswalk_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/crosswalk_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/crosswalk_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/crosswalk_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/crosswalk_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/CrosswalkYellowRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "DiagonalInExclYellowRoad",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_in_excl_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_in_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_in_excl_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_in_excl_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalInExclYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_in_excl_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "DiagonalOutExclYellowRoad",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_out_excl_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/DiagonalOutExclYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_out_excl_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_out_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_out_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_out_excl_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "OuterLineExclYellowRoad",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_line_excl_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/OuterLineExclYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/outer_line_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/outer_line_excl_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/outer_line_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/outer_line_excl_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "TurnInYellowRoad",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_in_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_in_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_in_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_in_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnInYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_in_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "OuterSingleLineYellowRoad",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_single_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/OuterSingleLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/outer_single_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/outer_single_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/outer_single_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/outer_single_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "TurnOutYellowRoad",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_out_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_out_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_out_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnOutYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_out_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_out_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "ExclZoneYellowRoad",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excl_zone_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/ExclZoneYellowRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/excl_zone_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/excl_zone_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/excl_zone_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/excl_zone_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "TurnInExclYellowRoad",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_in_excl_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_in_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_in_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_in_excl_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_in_excl_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnInExclYellowRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "TurnOutExclYellowRoad",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_out_excl_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/turn_out_excl_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/TurnOutExclYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/turn_out_excl_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/turn_out_excl_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/turn_out_excl_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "DiagonalSimpleLineYellowRoad",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_simple_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/diagonal_simple_line_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/DiagonalSimpleLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/diagonal_simple_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/diagonal_simple_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/diagonal_simple_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MergeLineYellowRoad",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merge_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/merge_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/merge_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/merge_line_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MergeLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/merge_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "StopLineYellowRoad",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/StopLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stop_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stop_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stop_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stop_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddleDobbleLineYellowRoad",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_dobble_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_dobble_line_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleDobbleLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_dobble_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_dobble_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_dobble_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddleTurnDoubleLineYellowRoad",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_turn_double_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/MiddleTurnDoubleLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_turn_double_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_turn_double_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_turn_double_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_turn_double_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddleSingleLineYellowRoad",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_single_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/MiddleSingleLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_single_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_single_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_single_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_single_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddelCrossLineYellowRoad",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middel_cross_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middel_cross_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middel_cross_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middel_cross_line_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middel_cross_line_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddelCrossLineYellowRoadBlock.java"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddleTLineYellowRoad",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_t_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_t_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_t_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_t_line_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleTLineYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_t_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "MiddleTurnLineYellowRoad",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_turn_line_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/MiddleTurnLineYellowRoadBlock.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_turn_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_turn_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_turn_line_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_turn_line_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "SplitInRightYellowRoad",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_in_right_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_in_right_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/SplitInRightYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_in_right_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_in_right_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_in_right_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "SplitInLeftYellowRoad",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_in_left_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/SplitInLeftYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_in_left_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_in_left_yellow_road.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_in_left_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_in_left_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "SplitOutRightYellowRoad",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_out_right_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_out_right_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_out_right_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_out_right_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/SplitOutRightYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_out_right_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "SplitOutLeftYellowRoad",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "split_out_left_yellow_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/split_out_left_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/split_out_left_yellow_road.json",
+          "src/main/java/net/mcreator/nxroads/block/SplitOutLeftYellowRoadBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/split_out_left_yellow_road.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/split_out_left_yellow_road.json"
+        ]
+      },
+      "path": "~/Road Blocks/Yellow Markings"
+    },
+    {
+      "name": "SingleMiddleLineYellowSlopeX1",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_middle_line_yellow_slope_x_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/SingleMiddleLineYellowSlopeX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_middle_line_yellow_slope_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_middle_line_yellow_slope_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_middle_line_yellow_slope_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_middle_line_yellow_slope_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "ExclLeftYellowX1",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excl_left_yellow_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/excl_left_yellow_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/excl_left_yellow_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/ExclLeftYellowX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/excl_left_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/excl_left_yellow_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "ExclRightYellowX1",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excl_right_yellow_x_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/ExclRightYellowX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/excl_right_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/excl_right_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/excl_right_yellow_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/excl_right_yellow_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "MiddleDoubleYellowX1",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_double_yellow_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/middle_double_yellow_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/middle_double_yellow_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/MiddleDoubleYellowX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/middle_double_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/middle_double_yellow_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "SingleLeftYellowX1",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_left_yellow_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_left_yellow_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SingleLeftYellowX1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_left_yellow_x_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_left_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_left_yellow_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "SingleRightYellowX1",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_right_yellow_x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/single_right_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/single_right_yellow_x_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/single_right_yellow_x_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SingleRightYellowX1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/single_right_yellow_x_1.json"
+        ]
+      },
+      "path": "~/Road Slope x1/Yellow Markings"
+    },
+    {
+      "name": "PlainRoadRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_road_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/recipes/plain_road_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "YellowRoadDye",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_road_dye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/item/YellowRoadDyeItem.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/yellow_road_dye.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "YellowRoadDyeRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_road_dye_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/recipes/yellow_road_dye_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "RoadTable",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/world/inventory/RoadTableMenu.java",
+          "src/main/java/net/mcreator/nxroads/network/RoadTableSlotMessage.java",
+          "src/main/java/net/mcreator/nxroads/client/gui/RoadTableScreen.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "RoadTableProcedure",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_table_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/procedures/RoadTableProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "RoadTableTakenItemPrcedure",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_table_taken_item_prcedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/procedures/RoadTableTakenItemPrcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "RoadCraftingTable",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/road_crafting_table.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/road_crafting_table.json",
+          "src/main/java/net/mcreator/nxroads/block/RoadCraftingTableBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/road_crafting_table.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/road_crafting_table.json",
+          "src/main/java/net/mcreator/nxroads/block/entity/RoadCraftingTableBlockEntity.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RoadCraftingTableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_crafting_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/procedures/RoadCraftingTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "RoadCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_crafting_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/recipes/road_crafting_table_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "CreativeTabNXBuildingBlocks",
+      "type": "tab",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_nx_building_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CreativeTabNXItemsAndTables",
+      "type": "tab",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_nx_items_and_tables",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "SkyscraperBlock1",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyscraper_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skyscraper_block_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skyscraper_block_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skyscraper_block_1.json",
+          "src/main/java/net/mcreator/nxroads/block/SkyscraperBlock1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skyscraper_block_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "SkycraperBlock2",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skycraper_block_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/SkycraperBlock2Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skycraper_block_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skycraper_block_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skycraper_block_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skycraper_block_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "SkycraperBlock3",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skycraper_block_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skycraper_block_3.json",
+          "src/main/java/net/mcreator/nxroads/block/SkycraperBlock3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skycraper_block_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skycraper_block_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skycraper_block_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "SkycraperBlock4",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skycraper_block_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skycraper_block_4.json",
+          "src/main/java/net/mcreator/nxroads/block/SkycraperBlock4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skycraper_block_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skycraper_block_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skycraper_block_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "SkycraperBlock5",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skycraper_block_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skycraper_block_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skycraper_block_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skycraper_block_5.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skycraper_block_5.json",
+          "src/main/java/net/mcreator/nxroads/block/SkycraperBlock5Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "SkycraperBlock6",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skycraper_block_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/skycraper_block_6.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/skycraper_block_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/skycraper_block_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/skycraper_block_6.json",
+          "src/main/java/net/mcreator/nxroads/block/SkycraperBlock6Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Concrete1",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/concrete_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/concrete_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/concrete_1.json",
+          "src/main/java/net/mcreator/nxroads/block/Concrete1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/concrete_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Concrete2",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Concrete2Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/concrete_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/concrete_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/concrete_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/concrete_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Granite1",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/granite_1.json",
+          "src/main/java/net/mcreator/nxroads/block/Granite1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/granite_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/granite_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/granite_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Granite2",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Granite2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/granite_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/granite_2.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/granite_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/granite_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Granite3",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/granite_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/granite_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/granite_3.json",
+          "src/main/java/net/mcreator/nxroads/block/Granite3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/granite_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble1",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Marble1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble2",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_2.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_2.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble3",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_3.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble4",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_4.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble5",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_5.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_5.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble6",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_6.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble6Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_6.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble7",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_7.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble7Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_7.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_7.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Marble8",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/marble_8.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/marble_8.json",
+          "src/main/java/net/mcreator/nxroads/block/Marble8Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/marble_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/marble_8.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "PavementCracked1",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pavement_cracked_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/pavement_cracked_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/pavement_cracked_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/pavement_cracked_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/pavement_cracked_1.json",
+          "src/main/java/net/mcreator/nxroads/block/PavementCracked1Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "PavementCracked2",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pavement_cracked_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/PavementCracked2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/pavement_cracked_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/pavement_cracked_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/pavement_cracked_2.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/pavement_cracked_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "PavementCracked3",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pavement_cracked_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/pavement_cracked_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/pavement_cracked_3.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/pavement_cracked_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/pavement_cracked_3.json",
+          "src/main/java/net/mcreator/nxroads/block/PavementCracked3Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk1",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_1.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk1Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk2",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_2.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk3",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_3.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk4",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk5",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_5.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_5.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk6",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_6.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk6Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_6.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk7",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_7.json",
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk7Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_7.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Sidewalk8",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sidewalk_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Sidewalk8Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/sidewalk_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/sidewalk_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/sidewalk_8.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/sidewalk_8.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone1",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Stone1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone2",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_2.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_2.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone3",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_3.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone4",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_4.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone5",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_5.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_5.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone5Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone6",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_6.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone6Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_6.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Stone7",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_7.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_7.json",
+          "src/main/java/net/mcreator/nxroads/block/Stone7Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked1",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked2",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_2.json",
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked2Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked3",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_3.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_3.json",
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked3Block.java"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked4",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_4.json",
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked5",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_5.json",
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_5.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "StoneBrickCracked6",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_brick_cracked_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/stone_brick_cracked_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/stone_brick_cracked_6.json",
+          "src/main/java/net/mcreator/nxroads/block/StoneBrickCracked6Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/stone_brick_cracked_6.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/stone_brick_cracked_6.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodCeiling1",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_ceiling_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/WoodCeiling1Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_ceiling_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_ceiling_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_ceiling_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_ceiling_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodCeiling2",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_ceiling_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_ceiling_2.json",
+          "src/main/java/net/mcreator/nxroads/block/WoodCeiling2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_ceiling_2.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_ceiling_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_ceiling_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodCeiling3",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_ceiling_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_ceiling_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_ceiling_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_ceiling_3.json",
+          "src/main/java/net/mcreator/nxroads/block/WoodCeiling3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_ceiling_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodCeiling4",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_ceiling_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/WoodCeiling4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_ceiling_4.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_ceiling_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_ceiling_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_ceiling_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong1",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_1.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong2",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_2.json",
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_2.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong3",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_3.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong4",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_4.json",
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_4.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong5",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_5.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_5.json",
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_5.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "WoodFloorLong6",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_floor_long_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/WoodFloorLong6Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/wood_floor_long_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/wood_floor_long_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/wood_floor_long_6.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/wood_floor_long_6.json"
+        ]
+      },
+      "path": "~/Building Blocks"
+    },
+    {
+      "name": "Class0",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/class_0.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/class_0.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/class_0.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/class_0.json",
+          "src/main/java/net/mcreator/nxroads/block/Class0Block.java"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass1",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_1.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_1.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass2",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Glass2Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_2.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass3",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_3.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_3.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass3Block.java"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass4",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_4.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_4.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass5",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_5.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_5.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_5.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass6",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/Glass6Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_6.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_6.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass7",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_7.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass7Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_7.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_7.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass8",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_8.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass8Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_8.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass9",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_9.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass9Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_9.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_9.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_9.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "Glass10",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_10.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_10.json",
+          "src/main/java/net/mcreator/nxroads/block/Glass10Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_10.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_10.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey0",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_0.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey0Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_0.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_0.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_0.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey1",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_1.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_1.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey2",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_2.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_2.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey3",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_3.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_3.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey3Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_3.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey4",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_4.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey4Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_4.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey5",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_5.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey5Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_5.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey6",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_6.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey6Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_6.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey7",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_7.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_7.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey7Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_7.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey8",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey8Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_8.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_8.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey9",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey9Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_9.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_9.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_9.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_9.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGrey10",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_grey_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_grey_10.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_grey_10.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_grey_10.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_grey_10.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGrey10Block.java"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen0",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_0.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_0.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_0.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen0Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_0.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen1",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_1.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_1.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen1Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_1.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_1.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen2",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_2.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen2Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_2.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_2.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen3",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_3.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen3Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_3.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_3.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen4",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_4.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen4Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_4.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_4.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen5",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_5.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_5.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen5Block.java",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_5.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen6",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen6Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_6.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_6.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_6.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen7",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen7Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_7.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_7.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_7.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen8",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_8.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_8.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_8.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen8Block.java"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen9",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_9.json",
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen9Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_9.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_9.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_9.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "GlassGreen10",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_green_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/GlassGreen10Block.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/glass_green_10.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/glass_green_10.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/glass_green_10.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/glass_green_10.json"
+        ]
+      },
+      "path": "~/Building Blocks/Glass"
+    },
+    {
+      "name": "OuterLineExRoadRotated",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_line_ex_road_rotated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nxroads/block/OuterLineExRoadRotatedBlock.java",
+          "src/main/resources/assets/nx_roads_and_skycrapers/blockstates/outer_line_ex_road_rotated.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/block/outer_line_ex_road_rotated.json",
+          "src/main/resources/data/nx_roads_and_skycrapers/loot_tables/blocks/outer_line_ex_road_rotated.json",
+          "src/main/resources/assets/nx_roads_and_skycrapers/models/item/outer_line_ex_road_rotated.json"
+        ]
+      },
+      "path": "~/Road Blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OuterLineExRoadRotated",
+      "~CUSTOM:StoneBrickCracked6",
+      "~CUSTOM:StoneBrickCracked5",
+      "~CUSTOM:StoneBrickCracked4",
+      "~CUSTOM:StoneBrickCracked3",
+      "~CUSTOM:StoneBrickCracked2",
+      "~CUSTOM:StoneBrickCracked1",
+      "~CUSTOM:Stone7",
+      "~CUSTOM:Stone6",
+      "~CUSTOM:Stone5",
+      "~CUSTOM:Stone4",
+      "~CUSTOM:Stone3",
+      "~CUSTOM:Stone2",
+      "~CUSTOM:Stone1",
+      "~CUSTOM:Sidewalk8",
+      "~CUSTOM:Sidewalk7",
+      "~CUSTOM:Sidewalk6",
+      "~CUSTOM:Sidewalk5",
+      "~CUSTOM:Sidewalk4",
+      "~CUSTOM:Sidewalk3",
+      "~CUSTOM:Sidewalk2",
+      "~CUSTOM:Sidewalk1",
+      "~CUSTOM:PavementCracked3",
+      "~CUSTOM:PavementCracked2",
+      "~CUSTOM:PavementCracked1",
+      "~CUSTOM:Marble8",
+      "~CUSTOM:Marble7",
+      "~CUSTOM:Marble6",
+      "~CUSTOM:Marble5",
+      "~CUSTOM:Marble4",
+      "~CUSTOM:Marble3",
+      "~CUSTOM:Marble2",
+      "~CUSTOM:Marble1",
+      "~CUSTOM:Granite3",
+      "~CUSTOM:Granite2",
+      "~CUSTOM:Granite1",
+      "~CUSTOM:Concrete2",
+      "~CUSTOM:Concrete1",
+      "~CUSTOM:SkycraperBlock6",
+      "~CUSTOM:SkycraperBlock5",
+      "~CUSTOM:SkycraperBlock4",
+      "~CUSTOM:SkycraperBlock3",
+      "~CUSTOM:SkycraperBlock2",
+      "~CUSTOM:SkyscraperBlock1",
+      "~CUSTOM:RoadCraftingTable",
+      "~CUSTOM:SingleRightYellowX1",
+      "~CUSTOM:SingleLeftYellowX1",
+      "~CUSTOM:MiddleDoubleYellowX1",
+      "~CUSTOM:ExclRightYellowX1",
+      "~CUSTOM:ExclLeftYellowX1",
+      "~CUSTOM:SingleMiddleLineYellowSlopeX1",
+      "~CUSTOM:SplitOutLeftYellowRoad",
+      "~CUSTOM:SplitOutRightYellowRoad",
+      "~CUSTOM:SplitInLeftYellowRoad",
+      "~CUSTOM:SplitInRightYellowRoad",
+      "~CUSTOM:MiddleTurnLineYellowRoad",
+      "~CUSTOM:MiddleTLineYellowRoad",
+      "~CUSTOM:MiddelCrossLineYellowRoad",
+      "~CUSTOM:MiddleSingleLineYellowRoad",
+      "~CUSTOM:MiddleTurnDoubleLineYellowRoad",
+      "~CUSTOM:MiddleDobbleLineYellowRoad",
+      "~CUSTOM:StopLineYellowRoad",
+      "~CUSTOM:MergeLineYellowRoad",
+      "~CUSTOM:DiagonalSimpleLineYellowRoad",
+      "~CUSTOM:TurnOutExclYellowRoad",
+      "~CUSTOM:TurnInExclYellowRoad",
+      "~CUSTOM:ExclZoneYellowRoad",
+      "~CUSTOM:TurnOutYellowRoad",
+      "~CUSTOM:OuterSingleLineYellowRoad",
+      "~CUSTOM:TurnInYellowRoad",
+      "~CUSTOM:OuterLineExclYellowRoad",
+      "~CUSTOM:DiagonalOutExclYellowRoad",
+      "~CUSTOM:DiagonalInExclYellowRoad",
+      "~CUSTOM:CrosswalkYellowRoad",
+      "~CUSTOM:StraightLeftRightArrowYellowRoad",
+      "~CUSTOM:StraightRightArrowYellowRoad",
+      "~CUSTOM:StraightLeftArrowYellowRoad",
+      "~CUSTOM:StraightArrowYellowRoad",
+      "~CUSTOM:LeftRightArrowYellowRoad",
+      "~CUSTOM:RightArrowYellowRoad",
+      "~CUSTOM:LeftArrowYellowRoad",
+      "~CUSTOM:PlainYellowRoad",
+      "~CUSTOM:MiddleSingleLineX1",
+      "~CUSTOM:SingleRightLineX1",
+      "~CUSTOM:SingleLeftLineX1",
+      "~CUSTOM:MiddleDoubleLineX1",
+      "~CUSTOM:ExclRightX1",
+      "~CUSTOM:ExclLeftX1",
+      "~CUSTOM:DiagonalExclOutWX1",
+      "~CUSTOM:DiagonalExclOutSX1",
+      "~CUSTOM:DiagonalExclOutNX1",
+      "~CUSTOM:DiagonalExclOutEX1",
+      "~CUSTOM:DiagonalExclInWX1",
+      "~CUSTOM:DiagonalExclInSX1",
+      "~CUSTOM:SingleMiddleLineSlopeRoadX1",
+      "~CUSTOM:DiagonalExclInNSlopeRoadX1",
+      "~CUSTOM:DiagonalExclInESlopeRoadX1",
+      "~CUSTOM:PlainSlopeX1",
+      "~CUSTOM:ArrowRightRoad",
+      "~CUSTOM:SplitOutRightRoad",
+      "~CUSTOM:SplitOutLeftRoad",
+      "~CUSTOM:SplitInRightRoad",
+      "~CUSTOM:SplitInLeftRoad",
+      "~CUSTOM:MiddleTurnLineSingleRoad",
+      "~CUSTOM:MiddleTLineRoad",
+      "~CUSTOM:MiddleCrossLineRoad",
+      "~CUSTOM:MiddleLineRoad",
+      "~CUSTOM:MiddleTurnLineRoad",
+      "~CUSTOM:MiddleLineDoubleRoad",
+      "~CUSTOM:LineStopRoad",
+      "~CUSTOM:MergeLineRoad",
+      "~CUSTOM:DiagonalLineRoad",
+      "~CUSTOM:TurnOutExRoad",
+      "~CUSTOM:TurnInExRoad",
+      "~CUSTOM:ExZoneRoad",
+      "~CUSTOM:TurnOutRoad",
+      "~CUSTOM:OuterLineSimpleRoad",
+      "~CUSTOM:TurnInRoad",
+      "~CUSTOM:OuterLineExRoad",
+      "~CUSTOM:DiagonalOutExRoad",
+      "~CUSTOM:DiagonalInExRoad",
+      "~CUSTOM:CroswalkRoad",
+      "~CUSTOM:ArrowStraightRightRoad",
+      "~CUSTOM:ArrowStraightRightLeftRoad",
+      "~CUSTOM:ArrowStraightLeftRoad",
+      "~CUSTOM:ArrowStraightRoad",
+      "~CUSTOM:ArrowLeftRightRoad",
+      "~CUSTOM:ArrowRoad",
+      "~CUSTOM:PlainRoad"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WoodFloorLong6",
+      "~CUSTOM:WoodFloorLong5",
+      "~CUSTOM:WoodFloorLong4",
+      "~CUSTOM:WoodFloorLong3",
+      "~CUSTOM:WoodFloorLong2",
+      "~CUSTOM:WoodFloorLong1",
+      "~CUSTOM:WoodCeiling4",
+      "~CUSTOM:WoodCeiling3",
+      "~CUSTOM:WoodCeiling2",
+      "~CUSTOM:WoodCeiling1"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SkycraperBlock6",
+      "~CUSTOM:SkycraperBlock5",
+      "~CUSTOM:SkycraperBlock4",
+      "~CUSTOM:SkycraperBlock3",
+      "~CUSTOM:SkycraperBlock2",
+      "~CUSTOM:SkyscraperBlock1"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.nx_roads.split_in_left_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads.concrete_2": "Concenre Dark",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_in_wx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads.concrete_1": "Concrete Light",
+      "block.nx_roads_and_skycrapers.diagonal_excl_out_ex_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skyscrapers.middle_double_yellow_x_1": "Middle Double Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.middle_single_line_x_1": "Middle Single Line Slope x1",
+      "item.nx_roads_and_skyscrapers.yellow_road_dye": "Yellow Road Dye",
+      "block.nx_roads.diagonal_excl_in_wx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads.left_arrow_yellow_road": "Left Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.middle_turn_double_line_yellow_road": "Middle Double Line Turn Yellow",
+      "block.nx_roads_and_skycrapers.line_stop_road": "Stop Line",
+      "block.nx_roads_and_skycrapers.middle_double_line_x_1": "Middle Double Line Slope x1",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_2": "Wood Flooring Light",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_3": "Wood Flooring Medium",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_4": "Wood Flooring Dark",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_5": "Wood Flooring Darker",
+      "block.nx_roads_and_skyscrapers.middle_dobble_line_yellow_road": "Middle Double Line Yellow",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_1": "Wood Flooring Very Light",
+      "block.nx_roads.turn_in_road": "Inner Single End Line",
+      "block.nx_roads_and_skyscrapers.wood_floor_long_6": "Wood Flooring Darkest",
+      "block.nx_roads.single_middle_line_slope_road_x_1": "Single Middle Line Slope x1",
+      "block.nx_roads.skyscraper_block_1": "Skyscraper Block White",
+      "block.nx_roads_and_skyscrapers.middel_cross_line_yellow_road": "Middle Cross Line Yellow",
+      "gui.nx_roads.road_table.Check": "Check",
+      "block.nx_roads_and_skyscrapers.croswalk_road": "Crosswalk",
+      "block.nx_roads_and_skyscrapers.skycraper_block_2": "Skyscraper Block Off-White",
+      "block.nx_roads_and_skyscrapers.skycraper_block_3": "Skyscraper Block Light Gray",
+      "block.nx_roads_and_skyscrapers.skycraper_block_4": "Skyscraper Block Gray",
+      "block.nx_roads_and_skyscrapers.skycraper_block_5": "Skyscraper Block Dark Gray",
+      "block.nx_roads_and_skyscrapers.skycraper_block_6": "Skyscraper Block Black",
+      "block.nx_roads_and_skycrapers.split_out_right_yellow_road": "Outer Right Split Line Excl Yellow",
+      "gui.nx_roads_and_skycrapers.road_table.label_plain_road": "Plain Road",
+      "block.nx_roads_and_skycrapers.single_middle_line_slope_road_x_1": "Single Middle Line Slope x1",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_3": "Cracked Stone Brick Light Gray",
+      "block.nx_roads.sidewalk_8": "Sidewalk Pink",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_4": "Cracked Stone Brick Gray",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_1": "Cracked Stone Brick White",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_2": "Cracked Stone Brick Off-White",
+      "block.nx_roads.sidewalk_4": "Sidewalk Black",
+      "block.nx_roads.sidewalk_5": "Sidewalk Yellow",
+      "block.nx_roads.sidewalk_6": "Sidewalk Blue",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_5": "Cracked Stone Brick Dark Gray",
+      "block.nx_roads_and_skycrapers.stone_brick_cracked_6": "Cracked Stone Brick Dark",
+      "block.nx_roads.sidewalk_7": "Sidewalk Green",
+      "block.nx_roads.turn_out_ex_road": "Outer Edge Excl",
+      "block.nx_roads.sidewalk_1": "Sidewalk White",
+      "block.nx_roads.sidewalk_2": "Sidewalk Light Gray",
+      "block.nx_roads_and_skyscrapers.outer_single_line_yellow_road": "Single End Line Yellow",
+      "block.nx_roads.sidewalk_3": "Sidewalk Gray",
+      "block.nx_roads_and_skyscrapers.single_left_line_x_1": "Left Single Outer Slope x1",
+      "block.nx_roads_and_skycrapers.middel_cross_line_yellow_road": "Middle Cross Line Yellow",
+      "block.nx_roads_and_skycrapers.outer_line_excl_yellow_road": "End Excl Line Yellow",
+      "block.nx_roads_and_skyscrapers.outer_line_simple_road": "Single End Line",
+      "block.nx_roads_and_skycrapers.split_in_right_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads_and_skycrapers.ex_zone_road": "Excl Zone",
+      "block.nx_roads_and_skycrapers.plain_road": "Plain Road",
+      "block.nx_roads_and_skycrapers.glass_3": "Glass Two Sided Border",
+      "block.nx_roads_and_skycrapers.glass_2": "Glass Double Crossed Stripes",
+      "block.nx_roads_and_skycrapers.glass_5": "Glass Cross",
+      "block.nx_roads.single_middle_line_yellow_slope_x_1": "Middle Single Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.glass_4": "Glass Vertical Stripe",
+      "block.nx_roads_and_skycrapers.glass_7": "Glass Thick X",
+      "block.nx_roads_and_skycrapers.glass_6": "Glass X",
+      "block.nx_roads_and_skycrapers.glass_9": "Glass Framed",
+      "block.nx_roads_and_skycrapers.glass_8": "Glass Double X",
+      "block.nx_roads.middle_t_line_yellow_road": "Middle T Line Yellow",
+      "block.nx_roads_and_skycrapers.diagonal_in_ex_road": "Inner Diagonal Excl Line",
+      "gui.nx_roads_and_skyscrapers.road_table.label_road_dye": "Road Dye",
+      "block.nx_roads_and_skyscrapers.class_0": "Glass Double Vertical Stripes",
+      "block.nx_roads_and_skycrapers.glass_1": "Glass Double Parallel Stripes",
+      "item.nx_roads_and_skycrapers.yellow_road_dye": "Yellow Road Dye",
+      "block.nx_roads_and_skyscrapers.diagonal_out_excl_yellow_road": "Diagonal Outer Excl Line Yellow",
+      "item_group.nx_roads.creative_tab_nx_items_and_tables": "NX Items And Tables",
+      "block.nx_roads_and_skyscrapers.turn_in_road": "Inner Single End Line",
+      "block.nx_roads_and_skycrapers.excl_right_yellow_x_1": "Right End Excl Line Yellow Slope x1",
+      "block.nx_roads.excl_right_yellow_x_1": "Right End Excl Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.single_left_line_x_1": "Left Single Outer Slope x1",
+      "block.nx_roads_and_skycrapers.split_out_right_road": "Split Out Right Line",
+      "block.nx_roads_and_skyscrapers.left_right_arrow_yellow_road": "Left and Right Yellow Arrow",
+      "item_group.nx_roads_and_skycrapers.creative_tab_nx_items_and_tables": "NX Items And Tables",
+      "block.nx_roads_and_skycrapers.excl_zone_yellow_road": "Excl Zone Yellow",
+      "block.nx_roads.excl_zone_yellow_road": "Excl Zone Yellow",
+      "block.nx_roads_and_skyscrapers.split_out_right_yellow_road": "Outer Right Split Line Excl Yellow",
+      "block.nx_roads.diagonal_out_ex_road": "Outer Diagonal Excl Line",
+      "block.nx_roads_and_skycrapers.turn_out_ex_road": "Outer Edge Excl",
+      "block.nx_roads_and_skyscrapers.stone_3": "Stone Light Gray",
+      "block.nx_roads_and_skycrapers.middle_single_line_yellow_road": "Middle Single Line Yellow",
+      "block.nx_roads_and_skyscrapers.stone_2": "Stone Off-White",
+      "block.nx_roads_and_skyscrapers.stone_5": "Stone Dark Gray",
+      "block.nx_roads.split_in_left_road": "Splin In Left Line",
+      "block.nx_roads_and_skyscrapers.stone_4": "Stone Gray",
+      "block.nx_roads_and_skyscrapers.stone_7": "Stone Dark",
+      "block.nx_roads.middle_dobble_line_yellow_road": "Middle Double Line Yellow",
+      "block.nx_roads_and_skyscrapers.stone_6": "Stone Darker Gray",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_in_e_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skyscrapers.diagonal_in_ex_road": "Inner Diagonal Excl Line",
+      "block.nx_roads_and_skyscrapers.stone_1": "Stone White",
+      "block.nx_roads_and_skycrapers.road_crafting_table": "Road Crafting Table",
+      "block.nx_roads_and_skyscrapers.merge_line_road": "Merge Line",
+      "block.nx_roads.middle_t_line_road": "Middle T Line ",
+      "item_group.nx_roads.creative_tab_nx_building_blocks": "NX Building Blocks",
+      "block.nx_roads_and_skyscrapers.excl_right_yellow_x_1": "Right End Excl Line Yellow Slope x1",
+      "block.nx_roads.outer_line_ex_road_rotated": "Excl End Line Flipped",
+      "block.nx_roads_and_skyscrapers.turn_out_ex_road": "Outer Edge Excl",
+      "block.nx_roads_and_skyscrapers.excl_zone_yellow_road": "Excl Zone Yellow",
+      "block.nx_roads_and_skycrapers.turn_out_road": "Outer Turn Single End Line",
+      "block.nx_roads.class_0": "Glass Double Vertical Stripes",
+      "block.nx_roads.left_right_arrow_yellow_road": "Left and Right Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.straight_arrow_yellow_road": "Straight Yellow Arrow",
+      "block.nx_roads.outer_line_simple_road": "Single End Line",
+      "block.nx_roads.plain_road": "Plain Road",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_out_sx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skycrapers.glass_grey_10": "Grey Glass Inner Square",
+      "gui.nx_roads_and_skyscrapers.road_table.label_road_table": "Road Table",
+      "block.nx_roads_and_skyscrapers.middle_line_double_road": "Middle Double Line",
+      "block.nx_roads_and_skycrapers.class_0": "Glass Double Vertical Stripes",
+      "block.nx_roads_and_skycrapers.left_arrow_yellow_road": "Left Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.glass_green_9": "Grey Glass Framed",
+      "block.nx_roads_and_skyscrapers.glass_green_8": "Green Glass Double X",
+      "block.nx_roads.diagonal_in_excl_yellow_road": "Diagonal Inner Excl Line Yellow",
+      "block.nx_roads_and_skyscrapers.glass_green_7": "Green Glass Thick X",
+      "block.nx_roads_and_skyscrapers.glass_green_6": "Green Glass X",
+      "block.nx_roads_and_skyscrapers.glass_green_5": "Green Glass Cross",
+      "block.nx_roads_and_skyscrapers.arrow_left_right_road": "Left and Right Arrow",
+      "block.nx_roads_and_skyscrapers.glass_green_4": "Green Glass Vertical Stripe",
+      "block.nx_roads_and_skyscrapers.glass_green_3": "Green Glass Two Sided Border",
+      "block.nx_roads_and_skyscrapers.glass_green_2": "Green Glass Double Crossed Stripes",
+      "block.nx_roads_and_skyscrapers.glass_green_1": "Green Glass Double Parallel Stripes",
+      "block.nx_roads_and_skyscrapers.glass_green_0": "Green Glass",
+      "block.nx_roads_and_skycrapers.excl_left_x_1": "Left Excl Outer Slope x1",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_6": "Cracked Stone Brick Dark",
+      "block.nx_roads.right_arrow_yellow_road": "Right Yellow Arrow",
+      "block.nx_roads_and_skycrapers.diagonal_excl_in_e_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads.arrow_straight_left_road": "Straight and Left Arrow",
+      "block.nx_roads_and_skyscrapers.line_stop_road": "Stop Line",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_1": "Cracked Stone Brick White",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_3": "Cracked Stone Brick Light Gray",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_2": "Cracked Stone Brick Off-White",
+      "block.nx_roads_and_skycrapers.diagonal_out_excl_yellow_road": "Diagonal Outer Excl Line Yellow",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_5": "Cracked Stone Brick Dark Gray",
+      "block.nx_roads_and_skyscrapers.stone_brick_cracked_4": "Cracked Stone Brick Gray",
+      "block.nx_roads.wood_ceiling_4": "Wood Ceiling Darker",
+      "block.nx_roads_and_skycrapers.straight_left_right_arrow_yellow_road": "Straight Left and Right Yellow Arrow",
+      "block.nx_roads.wood_ceiling_3": "Wood Ceiling Dark",
+      "block.nx_roads.wood_ceiling_2": "Wood Ceiling Oak",
+      "block.nx_roads.wood_ceiling_1": "Wood Ceiling Light",
+      "gui.nx_roads.road_table.label_road_dye": "Road Dye",
+      "block.nx_roads.middle_turn_line_yellow_road": "Middle Single Turn Line Yellow",
+      "block.nx_roads_and_skyscrapers.straight_right_arrow_yellow_road": "Straight and Right Yellow Arrow",
+      "block.nx_roads.stone_brick_cracked_3": "Cracked Stone Brick Light Gray",
+      "block.nx_roads.stone_brick_cracked_4": "Cracked Stone Brick Gray",
+      "block.nx_roads_and_skyscrapers.turn_out_yellow_road": "Outer Line Turn Line Yellow",
+      "block.nx_roads_and_skyscrapers.middle_t_line_yellow_road": "Middle T Line Yellow",
+      "block.nx_roads.stone_brick_cracked_1": "Cracked Stone Brick White",
+      "block.nx_roads.stone_brick_cracked_2": "Cracked Stone Brick Off-White",
+      "block.nx_roads_and_skyscrapers.outer_line_excl_yellow_road": "End Excl Line Yellow",
+      "block.nx_roads.stone_brick_cracked_5": "Cracked Stone Brick Dark Gray",
+      "block.nx_roads_and_skycrapers.excl_right_x_1": "Left Excl Outer Slope x1",
+      "block.nx_roads.stone_brick_cracked_6": "Cracked Stone Brick Dark",
+      "block.nx_roads.diagonal_excl_in_e_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skyscrapers.turn_in_yellow_road": "Inner Line Turn Yellow",
+      "block.nx_roads.arrow_left_right_road": "Left and Right Arrow",
+      "block.nx_roads.diagonal_in_ex_road": "Inner Diagonal Excl Line",
+      "block.nx_roads_and_skyscrapers.pavement_cracked_3": "Cracked Pavement Green",
+      "block.nx_roads_and_skyscrapers.pavement_cracked_2": "Cracked Pavement Orange",
+      "block.nx_roads_and_skyscrapers.pavement_cracked_1": "Cracked Pavement Yellow",
+      "block.nx_roads_and_skyscrapers.left_arrow_yellow_road": "Left Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.ex_zone_road": "Excl Zone",
+      "block.nx_roads.middle_single_line_x_1": "Middle Single Line Slope x1",
+      "block.nx_roads.merge_line_road": "Merge Line",
+      "block.nx_roads_and_skycrapers.middle_turn_line_single_road": "Middle Single Turn Line",
+      "block.nx_roads_and_skyscrapers.split_in_right_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads.single_right_yellow_x_1": "Single End Right Line Yellow Slope x1",
+      "block.nx_roads_and_skyscrapers.single_left_yellow_x_1": "Single End Left Line Yellow Slope x1",
+      "block.nx_roads_and_skyscrapers.glass_green_10": "Green Glass Inner Square",
+      "block.nx_roads_and_skyscrapers.turn_in_excl_yellow_road": "Inner End Turn Excl Line Yellow",
+      "block.nx_roads.diagonal_excl_in_n_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skyscrapers.middle_line_road": "Middle Single Line",
+      "block.nx_roads_and_skycrapers.diagonal_in_excl_yellow_road": "Diagonal Inner Excl Line Yellow",
+      "block.nx_roads.straight_left_right_arrow_yellow_road": "Straight Left and Right Yellow Arrow",
+      "block.nx_roads.excl_left_x_1": "Left Excl Outer Slope x1",
+      "itemGroup.tabcreative_tab_nx_items_and_tables": "NX Items And Tables",
+      "block.nx_roads_and_skycrapers.turn_in_excl_yellow_road": "Inner End Turn Excl Line Yellow",
+      "block.nx_roads_and_skycrapers.middle_line_road": "Middle Single Line",
+      "block.nx_roads_and_skyscrapers.merge_line_yellow_road": "Middle Merge Line Yellow",
+      "block.nx_roads.glass_grey_10": "Grey Glass Inner Square",
+      "block.nx_roads_and_skyscrapers.outer_line_ex_road": "Excl End Line",
+      "block.nx_roads_and_skycrapers.middle_turn_line_yellow_road": "Middle Single Turn Line Yellow",
+      "block.nx_roads_and_skyscrapers.arrow_straight_right_road": "Straight and Right Arrow",
+      "block.nx_roads_and_skyscrapers.glass_grey_4": "Grey Glass Vertical Stripe",
+      "block.nx_roads_and_skyscrapers.glass_grey_3": "Grey Glass Two Sided Border",
+      "block.nx_roads_and_skyscrapers.glass_grey_2": "Grey Glass Double Crossed Stripes",
+      "block.nx_roads_and_skyscrapers.glass_grey_1": "Grey Glass Double Parallel Stripes",
+      "gui.nx_roads.road_table.check_box": "Check",
+      "block.nx_roads_and_skyscrapers.glass_grey_0": "Grey Glass",
+      "block.nx_roads_and_skyscrapers.single_middle_line_slope_road_x_1": "Single Middle Line Slope x1",
+      "block.nx_roads_and_skycrapers.skycraper_block_2": "Skyscraper Block Off-White",
+      "block.nx_roads.glass_green_10": "Green Glass Inner Square",
+      "block.nx_roads_and_skycrapers.skycraper_block_3": "Skyscraper Block Light Gray",
+      "block.nx_roads_and_skyscrapers.glass_grey_9": "Grey Glass Framed",
+      "block.nx_roads_and_skycrapers.split_out_left_yellow_road": "Outer Left Split Line Excl Yellow",
+      "block.nx_roads_and_skyscrapers.glass_grey_8": "Grey Glass Double X",
+      "block.nx_roads_and_skycrapers.diagonal_line_road": "Diagonal Line",
+      "block.nx_roads_and_skyscrapers.glass_grey_7": "Grey Glass Thick X",
+      "block.nx_roads_and_skyscrapers.glass_grey_6": "Grey Glass X",
+      "block.nx_roads_and_skycrapers.turn_in_ex_road": "Inner Edge Excl",
+      "block.nx_roads_and_skyscrapers.glass_grey_5": "Grey Glass Cross",
+      "block.nx_roads_and_skycrapers.diagonal_excl_out_sx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skyscrapers.arrow_straight_road": "Straight Arrow",
+      "block.nx_roads_and_skycrapers.sidewalk_8": "Sidewalk Pink",
+      "block.nx_roads.granite_1": "Granite Light",
+      "block.nx_roads_and_skycrapers.skycraper_block_6": "Skyscraper Block Black",
+      "block.nx_roads_and_skyscrapers.single_right_yellow_x_1": "Single End Right Line Yellow Slope x1",
+      "block.nx_roads.granite_3": "Granite Dark",
+      "block.nx_roads_and_skycrapers.skycraper_block_4": "Skyscraper Block Gray",
+      "block.nx_roads.granite_2": "Granite Pink",
+      "block.nx_roads_and_skycrapers.skycraper_block_5": "Skyscraper Block Dark Gray",
+      "block.nx_roads_and_skycrapers.sidewalk_2": "Sidewalk Light Gray",
+      "block.nx_roads_and_skycrapers.sidewalk_3": "Sidewalk Gray",
+      "block.nx_roads_and_skycrapers.sidewalk_1": "Sidewalk White",
+      "block.nx_roads_and_skycrapers.sidewalk_6": "Sidewalk Blue",
+      "block.nx_roads_and_skycrapers.sidewalk_7": "Sidewalk Green",
+      "block.nx_roads_and_skycrapers.sidewalk_4": "Sidewalk Black",
+      "block.nx_roads_and_skycrapers.outer_line_ex_road": "Excl End Line",
+      "block.nx_roads_and_skycrapers.sidewalk_5": "Sidewalk Yellow",
+      "block.nx_roads_and_skycrapers.granite_1": "Granite Light",
+      "block.nx_roads_and_skycrapers.granite_2": "Granite Pink",
+      "block.nx_roads.diagonal_excl_out_sx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skycrapers.granite_3": "Granite Dark",
+      "block.nx_roads.single_left_yellow_x_1": "Single End Left Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.marble_1": "Marble White",
+      "block.nx_roads_and_skycrapers.marble_2": "Marble Off-White",
+      "block.nx_roads.straight_left_arrow_yellow_road": "Straight and Left Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.diagonal_line_road": "Diagonal Line",
+      "block.nx_roads.excl_left_yellow_x_1": "Left End Excl Line Yellow Slope x1",
+      "gui.nx_roads_and_skycrapers.road_table.label_road_dye": "Road Dye",
+      "block.nx_roads_and_skycrapers.marble_7": "Marble Light Black",
+      "block.nx_roads_and_skycrapers.marble_8": "Marble Black",
+      "block.nx_roads_and_skycrapers.diagonal_out_ex_road": "Outer Diagonal Excl Line",
+      "block.nx_roads_and_skyscrapers.diagonal_simple_line_yellow_road": "Simple Diagonal Line Yellow",
+      "block.nx_roads_and_skyscrapers.arrow_straight_left_road": "Straight and Left Arrow",
+      "block.nx_roads_and_skycrapers.marble_3": "Marble Light Gray",
+      "block.nx_roads_and_skycrapers.marble_4": "Marble Gray",
+      "block.nx_roads_and_skycrapers.marble_5": "Marble Dark Gray",
+      "block.nx_roads.turn_in_excl_yellow_road": "Inner End Turn Excl Line Yellow",
+      "block.nx_roads_and_skycrapers.marble_6": "Marble Darker Gray",
+      "block.nx_roads_and_skycrapers.arrow_straight_road": "Straight Arrow",
+      "block.nx_roads_and_skycrapers.single_left_yellow_x_1": "Single End Left Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.arrow_straight_left_road": "Straight and Left Arrow",
+      "block.nx_roads_and_skyscrapers.wood_ceiling_2": "Wood Ceiling Oak",
+      "block.nx_roads_and_skyscrapers.split_in_right_road": "Split In Right Line",
+      "block.nx_roads_and_skyscrapers.wood_ceiling_3": "Wood Ceiling Dark",
+      "gui.nx_roads.road_table.label_plain_road": "Plain Road",
+      "block.nx_roads_and_skyscrapers.wood_ceiling_1": "Wood Ceiling Light",
+      "block.nx_roads.middle_turn_line_single_road": "Middle Single Turn Line",
+      "block.nx_roads_and_skyscrapers.granite_1": "Granite Light",
+      "block.nx_roads_and_skyscrapers.granite_2": "Granite Pink",
+      "block.nx_roads_and_skyscrapers.granite_3": "Granite Dark",
+      "block.nx_roads_and_skyscrapers.excl_right_x_1": "Left Excl Outer Slope x1",
+      "block.nx_roads.middle_single_line_yellow_road": "Middle Single Line Yellow",
+      "block.nx_roads_and_skycrapers.straight_left_arrow_yellow_road": "Straight and Left Yellow Arrow",
+      "block.nx_roads.arrow_road": "Left Arrow",
+      "block.nx_roads_and_skyscrapers.plain_road": "Plain Road",
+      "block.nx_roads_and_skycrapers.split_in_left_road": "Splin In Left Line",
+      "block.nx_roads_and_skyscrapers.middle_double_line_x_1": "Middle Double Line Slope x1",
+      "block.nx_roads_and_skyscrapers.arrow_straight_right_left_road": "Straight Left and Right Arrow",
+      "block.nx_roads_and_skyscrapers.glass_8": "Glass Double X",
+      "block.nx_roads_and_skyscrapers.glass_7": "Glass Thick X",
+      "block.nx_roads.middle_turn_double_line_yellow_road": "Middle Double Line Turn Yellow",
+      "block.nx_roads_and_skyscrapers.glass_9": "Glass Framed",
+      "block.nx_roads_and_skyscrapers.glass_4": "Glass Vertical Stripe",
+      "block.nx_roads_and_skyscrapers.glass_3": "Glass Two Sided Border",
+      "block.nx_roads_and_skyscrapers.glass_6": "Glass X",
+      "block.nx_roads_and_skyscrapers.glass_5": "Glass Cross",
+      "block.nx_roads_and_skyscrapers.marble_1": "Marble White",
+      "block.nx_roads_and_skyscrapers.marble_8": "Marble Black",
+      "block.nx_roads.arrow_straight_right_road": "Straight and Right Arrow",
+      "block.nx_roads_and_skyscrapers.marble_6": "Marble Darker Gray",
+      "block.nx_roads.glass_green_1": "Green Glass Double Parallel Stripes",
+      "block.nx_roads_and_skyscrapers.marble_7": "Marble Light Black",
+      "block.nx_roads.glass_green_0": "Green Glass",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_out_ex_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads.glass_green_3": "Green Glass Two Sided Border",
+      "block.nx_roads_and_skyscrapers.marble_4": "Marble Gray",
+      "block.nx_roads.glass_green_2": "Green Glass Double Crossed Stripes",
+      "block.nx_roads_and_skyscrapers.marble_5": "Marble Dark Gray",
+      "block.nx_roads.glass_green_5": "Green Glass Cross",
+      "block.nx_roads_and_skyscrapers.marble_2": "Marble Off-White",
+      "block.nx_roads_and_skyscrapers.marble_3": "Marble Light Gray",
+      "block.nx_roads.glass_green_4": "Green Glass Vertical Stripe",
+      "block.nx_roads.glass_green_7": "Green Glass Thick X",
+      "block.nx_roads.glass_green_6": "Green Glass X",
+      "block.nx_roads.glass_green_9": "Grey Glass Framed",
+      "block.nx_roads_and_skyscrapers.glass_2": "Glass Double Crossed Stripes",
+      "block.nx_roads.glass_green_8": "Green Glass Double X",
+      "block.nx_roads_and_skyscrapers.glass_1": "Glass Double Parallel Stripes",
+      "block.nx_roads_and_skycrapers.croswalk_road": "Crosswalk",
+      "block.nx_roads.outer_line_excl_yellow_road": "End Excl Line Yellow",
+      "block.nx_roads_and_skycrapers.middle_t_line_road": "Middle T Line ",
+      "block.nx_roads_and_skycrapers.excl_left_yellow_x_1": "Left End Excl Line Yellow Slope x1",
+      "block.nx_roads.diagonal_out_excl_yellow_road": "Diagonal Outer Excl Line Yellow",
+      "block.nx_roads_and_skycrapers.arrow_left_right_road": "Left and Right Arrow",
+      "block.nx_roads.turn_in_yellow_road": "Inner Line Turn Yellow",
+      "block.nx_roads.outer_single_line_yellow_road": "Single End Line Yellow",
+      "block.nx_roads.middle_turn_line_road": "Middle Double Turn Line",
+      "block.nx_roads_and_skyscrapers.split_out_left_yellow_road": "Outer Left Split Line Excl Yellow",
+      "block.nx_roads.split_out_right_road": "Split Out Right Line",
+      "block.nx_roads.line_stop_road": "Stop Line",
+      "block.nx_roads.diagonal_simple_line_yellow_road": "Simple Diagonal Line Yellow",
+      "block.nx_roads.split_out_right_yellow_road": "Outer Right Split Line Excl Yellow",
+      "block.nx_roads.plain_slope_x_1": "Plain Slope x1",
+      "item.nx_roads.yellow_road_dye": "Yellow Road Dye",
+      "block.nx_roads.middle_cross_line_road": "Middle Cross Line",
+      "block.nx_roads_and_skycrapers.stone_6": "Stone Darker Gray",
+      "block.nx_roads_and_skycrapers.stone_5": "Stone Dark Gray",
+      "gui.nx_roads_and_skyscrapers.road_table.label_plain_road": "Plain Road",
+      "block.nx_roads_and_skycrapers.split_in_left_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads_and_skycrapers.stone_7": "Stone Dark",
+      "block.nx_roads_and_skycrapers.stone_2": "Stone Off-White",
+      "block.nx_roads_and_skycrapers.stone_1": "Stone White",
+      "block.nx_roads_and_skycrapers.stone_4": "Stone Gray",
+      "block.nx_roads.middel_cross_line_yellow_road": "Middle Cross Line Yellow",
+      "block.nx_roads_and_skycrapers.stone_3": "Stone Light Gray",
+      "block.nx_roads_and_skycrapers.pavement_cracked_3": "Cracked Pavement Green",
+      "block.nx_roads.diagonal_excl_out_wx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads.stone_7": "Stone Dark",
+      "block.nx_roads_and_skycrapers.pavement_cracked_2": "Cracked Pavement Orange",
+      "block.nx_roads.stone_6": "Stone Darker Gray",
+      "block.nx_roads_and_skyscrapers.wood_ceiling_4": "Wood Ceiling Darker",
+      "block.nx_roads_and_skycrapers.pavement_cracked_1": "Cracked Pavement Yellow",
+      "block.nx_roads.stone_5": "Stone Dark Gray",
+      "block.nx_roads.stone_4": "Stone Gray",
+      "block.nx_roads.stone_3": "Stone Light Gray",
+      "block.nx_roads.stone_2": "Stone Off-White",
+      "block.nx_roads.stone_1": "Stone White",
+      "block.nx_roads_and_skycrapers.middle_turn_double_line_yellow_road": "Middle Double Line Turn Yellow",
+      "block.nx_roads.middle_line_double_road": "Middle Double Line",
+      "block.nx_roads_and_skycrapers.plain_slope_x_1": "Plain Slope x1",
+      "block.nx_roads_and_skycrapers.merge_line_yellow_road": "Middle Merge Line Yellow",
+      "block.nx_roads_and_skyscrapers.excl_left_x_1": "Left Excl Outer Slope x1",
+      "block.nx_roads_and_skycrapers.glass_10": "Glass Inner Square",
+      "block.nx_roads_and_skyscrapers.glass_10": "Glass Inner Square",
+      "block.nx_roads_and_skycrapers.arrow_right_road": "Right Arrow",
+      "block.nx_roads_and_skycrapers.right_arrow_yellow_road": "Right Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_in_sx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skyscrapers.split_out_left_road": "Split Out Left Line",
+      "block.nx_roads.diagonal_excl_in_sx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skycrapers.turn_in_yellow_road": "Inner Line Turn Yellow",
+      "block.nx_roads_and_skycrapers.split_out_left_road": "Split Out Left Line",
+      "block.nx_roads.diagonal_line_road": "Diagonal Line",
+      "block.nx_roads.plain_yellow_road": "Plain Yellow Road",
+      "block.nx_roads.merge_line_yellow_road": "Middle Merge Line Yellow",
+      "block.nx_roads_and_skycrapers.turn_in_road": "Inner Single End Line",
+      "block.nx_roads_and_skycrapers.concrete_2": "Concenre Dark",
+      "block.nx_roads_and_skycrapers.concrete_1": "Concrete Light",
+      "block.nx_roads_and_skyscrapers.road_crafting_table": "Road Crafting Table",
+      "block.nx_roads_and_skyscrapers.excl_left_yellow_x_1": "Left End Excl Line Yellow Slope x1",
+      "block.nx_roads_and_skyscrapers.skyscraper_block_1": "Skyscraper Block White",
+      "block.nx_roads_and_skyscrapers.middle_single_line_x_1": "Middle Single Line Slope x1",
+      "block.nx_roads_and_skyscrapers.middle_turn_line_road": "Middle Double Turn Line",
+      "block.nx_roads.skycraper_block_4": "Skyscraper Block Gray",
+      "block.nx_roads.straight_right_arrow_yellow_road": "Straight and Right Yellow Arrow",
+      "block.nx_roads.skycraper_block_5": "Skyscraper Block Dark Gray",
+      "block.nx_roads_and_skyscrapers.middle_single_line_yellow_road": "Middle Single Line Yellow",
+      "block.nx_roads.skycraper_block_6": "Skyscraper Block Black",
+      "block.nx_roads.arrow_right_road": "Right Arrow",
+      "block.nx_roads_and_skycrapers.diagonal_excl_in_sx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skycrapers.middle_dobble_line_yellow_road": "Middle Double Line Yellow",
+      "block.nx_roads_and_skycrapers.stop_line_yellow_road": "Stop Line Yellow",
+      "block.nx_roads.middle_double_yellow_x_1": "Middle Double Line Yellow Slope x1",
+      "block.nx_roads.croswalk_road": "Crosswalk",
+      "block.nx_roads.split_out_left_yellow_road": "Outer Left Split Line Excl Yellow",
+      "block.nx_roads_and_skycrapers.skyscraper_block_1": "Skyscraper Block White",
+      "block.nx_roads_and_skyscrapers.single_middle_line_yellow_slope_x_1": "Middle Single Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.middle_double_yellow_x_1": "Middle Double Line Yellow Slope x1",
+      "block.nx_roads_and_skyscrapers.turn_in_ex_road": "Inner Edge Excl",
+      "block.nx_roads_and_skyscrapers.right_arrow_yellow_road": "Right Yellow Arrow",
+      "block.nx_roads_and_skycrapers.crosswalk_yellow_road": "Crosswalk Yellow",
+      "block.nx_roads.ex_zone_road": "Excl Zone",
+      "block.nx_roads_and_skycrapers.turn_out_excl_yellow_road": "Outer End Line Turn Excl Yellow",
+      "block.nx_roads_and_skyscrapers.turn_out_road": "Outer Turn Single End Line",
+      "block.nx_roads.skycraper_block_2": "Skyscraper Block Off-White",
+      "block.nx_roads.skycraper_block_3": "Skyscraper Block Light Gray",
+      "block.nx_roads_and_skyscrapers.split_in_left_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads_and_skycrapers.outer_line_simple_road": "Single End Line",
+      "block.nx_roads.pavement_cracked_3": "Cracked Pavement Green",
+      "block.nx_roads.pavement_cracked_2": "Cracked Pavement Orange",
+      "block.nx_roads.pavement_cracked_1": "Cracked Pavement Yellow",
+      "block.nx_roads.middle_double_line_x_1": "Middle Double Line Slope x1",
+      "block.nx_roads.crosswalk_yellow_road": "Crosswalk Yellow",
+      "block.nx_roads_and_skyscrapers.stop_line_yellow_road": "Stop Line Yellow",
+      "block.nx_roads.straight_arrow_yellow_road": "Straight Yellow Arrow",
+      "gui.nx_roads.road_table.label_road_table": "Road Table",
+      "block.nx_roads.stop_line_yellow_road": "Stop Line Yellow",
+      "block.nx_roads_and_skycrapers.middle_line_double_road": "Middle Double Line",
+      "block.nx_roads_and_skycrapers.middle_turn_line_road": "Middle Double Turn Line",
+      "block.nx_roads_and_skycrapers.outer_single_line_yellow_road": "Single End Line Yellow",
+      "block.nx_roads.single_left_line_x_1": "Left Single Outer Slope x1",
+      "block.nx_roads_and_skycrapers.straight_arrow_yellow_road": "Straight Yellow Arrow",
+      "block.nx_roads_and_skycrapers.turn_out_yellow_road": "Outer Line Turn Line Yellow",
+      "block.nx_roads.split_in_right_road": "Split In Right Line",
+      "block.nx_roads.glass_10": "Glass Inner Square",
+      "block.nx_roads_and_skyscrapers.arrow_road": "Left Arrow",
+      "block.nx_roads_and_skyscrapers.crosswalk_yellow_road": "Crosswalk Yellow",
+      "block.nx_roads_and_skycrapers.wood_floor_long_3": "Wood Flooring Medium",
+      "block.nx_roads_and_skycrapers.wood_floor_long_4": "Wood Flooring Dark",
+      "block.nx_roads_and_skycrapers.wood_floor_long_1": "Wood Flooring Very Light",
+      "block.nx_roads.diagonal_excl_out_ex_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skycrapers.wood_floor_long_2": "Wood Flooring Light",
+      "block.nx_roads_and_skyscrapers.split_in_left_road": "Splin In Left Line",
+      "block.nx_roads_and_skyscrapers.straight_left_arrow_yellow_road": "Straight and Left Yellow Arrow",
+      "itemGroup.tabcreative_tab_nx_building_blocks": "NX Building Blocks",
+      "block.nx_roads_and_skycrapers.wood_floor_long_5": "Wood Flooring Darker",
+      "block.nx_roads_and_skycrapers.split_in_right_road": "Split In Right Line",
+      "block.nx_roads_and_skycrapers.wood_floor_long_6": "Wood Flooring Darkest",
+      "block.nx_roads.turn_out_road": "Outer Turn Single End Line",
+      "block.nx_roads_and_skyscrapers.outer_line_ex_road_rotated": "Excl End Line Flipped",
+      "block.nx_roads_and_skycrapers.glass_green_10": "Green Glass Inner Square",
+      "block.nx_roads.glass_grey_0": "Grey Glass",
+      "block.nx_roads.glass_grey_1": "Grey Glass Double Parallel Stripes",
+      "block.nx_roads.glass_grey_4": "Grey Glass Vertical Stripe",
+      "block.nx_roads.glass_grey_5": "Grey Glass Cross",
+      "block.nx_roads.glass_grey_2": "Grey Glass Double Crossed Stripes",
+      "block.nx_roads_and_skyscrapers.middle_t_line_road": "Middle T Line ",
+      "block.nx_roads.glass_grey_3": "Grey Glass Two Sided Border",
+      "block.nx_roads.glass_grey_8": "Grey Glass Double X",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_out_nx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads.glass_grey_9": "Grey Glass Framed",
+      "block.nx_roads.glass_grey_6": "Grey Glass X",
+      "block.nx_roads.glass_grey_7": "Grey Glass Thick X",
+      "block.nx_roads_and_skycrapers.middle_cross_line_road": "Middle Cross Line",
+      "block.nx_roads_and_skycrapers.diagonal_excl_in_wx_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads.wood_floor_long_5": "Wood Flooring Darker",
+      "block.nx_roads_and_skyscrapers.sidewalk_7": "Sidewalk Green",
+      "block.nx_roads.turn_out_yellow_road": "Outer Line Turn Line Yellow",
+      "block.nx_roads.wood_floor_long_6": "Wood Flooring Darkest",
+      "block.nx_roads_and_skyscrapers.sidewalk_8": "Sidewalk Pink",
+      "block.nx_roads.wood_floor_long_1": "Wood Flooring Very Light",
+      "block.nx_roads_and_skyscrapers.sidewalk_3": "Sidewalk Gray",
+      "block.nx_roads.wood_floor_long_2": "Wood Flooring Light",
+      "block.nx_roads_and_skyscrapers.diagonal_out_ex_road": "Outer Diagonal Excl Line",
+      "block.nx_roads_and_skyscrapers.sidewalk_4": "Sidewalk Black",
+      "block.nx_roads.wood_floor_long_3": "Wood Flooring Medium",
+      "block.nx_roads_and_skyscrapers.sidewalk_5": "Sidewalk Yellow",
+      "block.nx_roads.wood_floor_long_4": "Wood Flooring Dark",
+      "block.nx_roads_and_skyscrapers.sidewalk_6": "Sidewalk Blue",
+      "block.nx_roads_and_skycrapers.arrow_road": "Left Arrow",
+      "block.nx_roads_and_skycrapers.diagonal_excl_out_wx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads.arrow_straight_road": "Straight Arrow",
+      "block.nx_roads_and_skyscrapers.sidewalk_1": "Sidewalk White",
+      "block.nx_roads_and_skyscrapers.sidewalk_2": "Sidewalk Light Gray",
+      "block.nx_roads_and_skyscrapers.arrow_right_road": "Right Arrow",
+      "block.nx_roads_and_skyscrapers.plain_yellow_road": "Plain Yellow Road",
+      "block.nx_roads_and_skycrapers.single_middle_line_yellow_slope_x_1": "Middle Single Line Yellow Slope x1",
+      "block.nx_roads.road_crafting_table": "Road Crafting Table",
+      "block.nx_roads_and_skycrapers.left_right_arrow_yellow_road": "Left and Right Yellow Arrow",
+      "block.nx_roads_and_skyscrapers.turn_out_excl_yellow_road": "Outer End Line Turn Excl Yellow",
+      "block.nx_roads.single_right_line_x_1": "Right Single Outer Slope x1",
+      "block.nx_roads_and_skycrapers.glass_green_0": "Green Glass",
+      "block.nx_roads_and_skycrapers.glass_green_1": "Green Glass Double Parallel Stripes",
+      "block.nx_roads_and_skyscrapers.glass_grey_10": "Grey Glass Inner Square",
+      "block.nx_roads_and_skycrapers.glass_green_4": "Green Glass Vertical Stripe",
+      "block.nx_roads_and_skycrapers.glass_green_5": "Green Glass Cross",
+      "item_group.nx_roads_and_skycrapers.creative_tab_nx_building_blocks": "NX Building Blocks",
+      "block.nx_roads_and_skycrapers.glass_green_2": "Green Glass Double Crossed Stripes",
+      "block.nx_roads_and_skycrapers.glass_green_3": "Green Glass Two Sided Border",
+      "block.nx_roads_and_skycrapers.glass_green_8": "Green Glass Double X",
+      "block.nx_roads_and_skycrapers.glass_green_9": "Grey Glass Framed",
+      "block.nx_roads_and_skycrapers.glass_green_6": "Green Glass X",
+      "block.nx_roads_and_skyscrapers.diagonal_in_excl_yellow_road": "Diagonal Inner Excl Line Yellow",
+      "block.nx_roads_and_skycrapers.glass_green_7": "Green Glass Thick X",
+      "block.nx_roads_and_skyscrapers.middle_cross_line_road": "Middle Cross Line",
+      "block.nx_roads_and_skycrapers.straight_right_arrow_yellow_road": "Straight and Right Yellow Arrow",
+      "block.nx_roads.outer_line_ex_road": "Excl End Line",
+      "item_group.nx_roads.creative_tab_nx_roads": "NX Roads",
+      "item_group.nx_roads_and_skycrapers.creative_tab_nx_roads": "NX Roads",
+      "block.nx_roads.marble_1": "Marble White",
+      "block.nx_roads_and_skyscrapers.single_right_line_x_1": "Right Single Outer Slope x1",
+      "block.nx_roads_and_skyscrapers.straight_left_right_arrow_yellow_road": "Straight Left and Right Yellow Arrow",
+      "itemGroup.tabcreative_tab_nx_roads": "NX Roads",
+      "block.nx_roads.marble_2": "Marble Off-White",
+      "block.nx_roads.glass_1": "Glass Double Parallel Stripes",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_in_n_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads.glass_4": "Glass Vertical Stripe",
+      "block.nx_roads.glass_5": "Glass Cross",
+      "block.nx_roads_and_skycrapers.single_right_line_x_1": "Right Single Outer Slope x1",
+      "block.nx_roads.marble_7": "Marble Light Black",
+      "block.nx_roads.glass_2": "Glass Double Crossed Stripes",
+      "block.nx_roads.marble_8": "Marble Black",
+      "block.nx_roads.glass_3": "Glass Two Sided Border",
+      "block.nx_roads.marble_5": "Marble Dark Gray",
+      "block.nx_roads.glass_8": "Glass Double X",
+      "block.nx_roads.marble_6": "Marble Darker Gray",
+      "block.nx_roads.glass_9": "Glass Framed",
+      "block.nx_roads.marble_3": "Marble Light Gray",
+      "block.nx_roads.glass_6": "Glass X",
+      "block.nx_roads_and_skycrapers.arrow_straight_right_road": "Straight and Right Arrow",
+      "block.nx_roads.marble_4": "Marble Gray",
+      "block.nx_roads.glass_7": "Glass Thick X",
+      "block.nx_roads_and_skycrapers.diagonal_excl_out_nx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads.turn_in_ex_road": "Inner Edge Excl",
+      "block.nx_roads_and_skycrapers.diagonal_excl_in_n_slope_road_x_1": "Diagonal Excl Inner Slope x1",
+      "block.nx_roads_and_skycrapers.outer_line_ex_road_rotated": "Excl End Line Flipped",
+      "gui.nx_roads_and_skycrapers.road_table.label_road_table": "Road Table",
+      "block.nx_roads_and_skyscrapers.middle_turn_line_single_road": "Middle Single Turn Line",
+      "block.nx_roads.excl_right_x_1": "Left Excl Outer Slope x1",
+      "block.nx_roads_and_skyscrapers.concrete_1": "Concrete Light",
+      "block.nx_roads.diagonal_excl_out_nx_1": "Diagonal Excl Outer Slope x1",
+      "block.nx_roads_and_skycrapers.wood_ceiling_2": "Wood Ceiling Oak",
+      "block.nx_roads_and_skycrapers.wood_ceiling_1": "Wood Ceiling Light",
+      "block.nx_roads_and_skycrapers.single_right_yellow_x_1": "Single End Right Line Yellow Slope x1",
+      "block.nx_roads_and_skycrapers.wood_ceiling_4": "Wood Ceiling Darker",
+      "block.nx_roads_and_skycrapers.wood_ceiling_3": "Wood Ceiling Dark",
+      "block.nx_roads.middle_line_road": "Middle Single Line",
+      "block.nx_roads_and_skyscrapers.concrete_2": "Concenre Dark",
+      "block.nx_roads_and_skyscrapers.split_out_right_road": "Split Out Right Line",
+      "block.nx_roads_and_skycrapers.middle_t_line_yellow_road": "Middle T Line Yellow",
+      "block.nx_roads.split_out_left_road": "Split Out Left Line",
+      "block.nx_roads_and_skycrapers.merge_line_road": "Merge Line",
+      "block.nx_roads_and_skyscrapers.plain_slope_x_1": "Plain Slope x1",
+      "block.nx_roads_and_skycrapers.glass_grey_7": "Grey Glass Thick X",
+      "block.nx_roads_and_skycrapers.glass_grey_6": "Grey Glass X",
+      "block.nx_roads_and_skycrapers.glass_grey_9": "Grey Glass Framed",
+      "block.nx_roads_and_skyscrapers.middle_turn_line_yellow_road": "Middle Single Turn Line Yellow",
+      "block.nx_roads_and_skycrapers.glass_grey_8": "Grey Glass Double X",
+      "block.nx_roads.turn_out_excl_yellow_road": "Outer End Line Turn Excl Yellow",
+      "block.nx_roads_and_skycrapers.diagonal_simple_line_yellow_road": "Simple Diagonal Line Yellow",
+      "block.nx_roads_and_skycrapers.glass_grey_1": "Grey Glass Double Parallel Stripes",
+      "block.nx_roads_and_skycrapers.glass_grey_0": "Grey Glass",
+      "block.nx_roads_and_skycrapers.glass_grey_3": "Grey Glass Two Sided Border",
+      "block.nx_roads_and_skycrapers.glass_grey_2": "Grey Glass Double Crossed Stripes",
+      "block.nx_roads_and_skycrapers.glass_grey_5": "Grey Glass Cross",
+      "block.nx_roads.split_in_right_yellow_road": "Inner Right Split Line Excl Yellow",
+      "block.nx_roads_and_skycrapers.glass_grey_4": "Grey Glass Vertical Stripe",
+      "block.nx_roads_and_skycrapers.plain_yellow_road": "Plain Yellow Road",
+      "block.nx_roads_and_skycrapers.arrow_straight_right_left_road": "Straight Left and Right Arrow",
+      "block.nx_roads.arrow_straight_right_left_road": "Straight Left and Right Arrow",
+      "block.nx_roads_and_skyscrapers.diagonal_excl_out_wx_1": "Diagonal Excl Outer Slope x1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Road Blocks",
+        "children": [
+          {
+            "name": "Yellow Markings",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Road Slope x1",
+        "children": [
+          {
+            "name": "Yellow Markings",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Slope x3",
+        "children": []
+      },
+      {
+        "name": "Crafting Recipes",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Building Blocks",
+        "children": [
+          {
+            "name": "Glass",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nx_roads_and_skycrapers",
+    "modName": "NX Roads and Skycrapers",
+    "version": "1.1.2",
+    "description": "A set of building and road blocks to build your cities!!!!!",
+    "author": "NXevo, MCreator",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/nx-roads-and-skyscrapers",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "2023-05-01_02.44.31",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nxroads"
+  },
+  "mcreatorVersion": 202400118518
+}

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "road",
+        "1": "road_slope_right",
+        "2": "road_slope_left",
+        "16": "road_diagonal_in_3",
+        "missing": "road"
+      },
+      "name": "default"
+    }
+  }
+}

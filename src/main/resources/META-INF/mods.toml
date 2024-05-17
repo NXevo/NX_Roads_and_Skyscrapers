@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="nx_roads_and_skycrapers"
+version="1.1.2"
+displayName="NX Roads and Skycrapers"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/nx-roads-and-skyscrapers"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="NXevo, MCreator"
+description="A set of building and road blocks to build your cities!!!!!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.nx_roads_and_skycrapers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

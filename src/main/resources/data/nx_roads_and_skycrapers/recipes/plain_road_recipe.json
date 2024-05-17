@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "b": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "nx_roads_and_skycrapers:plain_road",
+    "count": 3
+  }
+}

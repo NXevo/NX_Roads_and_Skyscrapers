@@ -1,0 +1,7 @@
+{
+  "parent": "nx_roads_and_skycrapers:custom/road_yellow_dye",
+  "textures": {
+    "0": "nx_roads_and_skycrapers:block/yellow_dye_texture",
+    "particle": "nx_roads_and_skycrapers:item/yellow_dye_texture"
+  }
+}

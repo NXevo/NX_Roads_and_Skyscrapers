@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "nx_roads_and_skycrapers:item/road_diagonal_out_4"
+  },
+  "render_type": "translucent"
+}

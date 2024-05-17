@@ -1,0 +1,13 @@
+{
+  "parent": "nx_roads_and_skycrapers:custom/y_excl_left_x1",
+  "textures": {
+    "all": "nx_roads_and_skycrapers:block/road_end_left_yellow",
+    "particle": "nx_roads_and_skycrapers:block/road_end_left_yellow",
+    "0": "nx_roads_and_skycrapers:block/road",
+    "22": "nx_roads_and_skycrapers:block/road_end_left_yellow",
+    "1": "nx_roads_and_skycrapers:block/road_slope_right",
+    "2": "nx_roads_and_skycrapers:block/road_slope_left",
+    "missing": "nx_roads_and_skycrapers:block/road"
+  },
+  "render_type": "cutout_mipped"
+}

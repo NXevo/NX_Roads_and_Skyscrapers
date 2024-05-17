@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nx_roads_and_skycrapers:skycraper_block_6",
+    "nx_roads_and_skycrapers:skycraper_block_5",
+    "nx_roads_and_skycrapers:skycraper_block_4",
+    "nx_roads_and_skycrapers:skycraper_block_3",
+    "nx_roads_and_skycrapers:skycraper_block_2",
+    "nx_roads_and_skycrapers:skyscraper_block_1"
+  ]
+}

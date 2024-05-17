@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "NX Items And Tables",
+    "icon": {
+      "value": "CUSTOM:RoadCraftingTable"
+    },
+    "showSearch": false
+  }
+}

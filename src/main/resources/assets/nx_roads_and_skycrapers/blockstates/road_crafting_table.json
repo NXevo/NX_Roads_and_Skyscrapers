@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nx_roads_and_skycrapers:block/road_crafting_table"
+    },
+    "facing=east": {
+      "model": "nx_roads_and_skycrapers:block/road_crafting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nx_roads_and_skycrapers:block/road_crafting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nx_roads_and_skycrapers:block/road_crafting_table",
+      "y": 270
+    }
+  }
+}
